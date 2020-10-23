@@ -18,8 +18,6 @@ import javax.annotation.Resource;
 public class AnotherdemoApplication {
 	private static final Logger log = LoggerFactory.getLogger(AnotherdemoApplication.class);
 
-	private static final Joke joke = new Joke();
-
 	@Resource
 	private RestTemplate restTemplate;
 
